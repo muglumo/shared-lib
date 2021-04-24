@@ -1,3 +1,3 @@
-struct shared_lib {
-    var text = "Hello, World!"
+public struct shared_lib {
+    public var text = "Hello, World!"
 }

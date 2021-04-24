@@ -7,6 +7,11 @@
 
 import Foundation
 
-struct Person {
-    var name = "Thomas"
+public struct Person {
+    
+    public init(name: String) {
+        self.name = name
+    }
+    
+    public var name = "Thomas"
 }

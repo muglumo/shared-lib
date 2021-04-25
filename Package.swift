@@ -15,6 +15,7 @@ let package = Package(
             targets: ["shared-lib"]),
     ],
     dependencies: [
+        .package(path: "/KMM/shared.framework")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.

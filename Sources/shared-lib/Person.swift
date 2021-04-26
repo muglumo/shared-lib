@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import shared
 public struct Person {
     
     public init(name: String) {

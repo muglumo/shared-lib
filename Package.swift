@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "shared-lib",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v11)
       ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -15,7 +15,6 @@ let package = Package(
             targets: ["shared-lib"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/realm/realm-cocoa.git", .upToNextMajor(from: "10.7.3")),
         .package(path: "KMM/shared.xcframework")
     ],
     targets: [
